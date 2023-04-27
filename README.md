@@ -62,7 +62,7 @@ S-Lab, Nanyang Technological University; Nankai University
 ### Quick Inference
 Before performing the following steps, please download our pretrained model first.
 
- **Download Links:** [[Google Drive](] [[Baidu Disk (password: )]()]
+ **Download Links:** [[Google Drive](https://drive.google.com/drive/folders/1hLehCbHG-L-Dq4qJne5s721B6cfI1fSE?usp=share_link)] [[Baidu Disk (password: )]()]
 
 Then, unzip the file and place the models to `ckpts/<dataset_name>` directory, separately.
 
@@ -164,7 +164,7 @@ CUDA_VISIBLE_DEVICES=X python src/train.py \
   --cuda     
 ```
 
-For the perceptual loss used in the paper, you can download the pre-trained VGG19 model from  [[Google Drive](] [[Baidu Disk (password: )]()].
+For the perceptual loss used in the paper, you can download the pre-trained VGG19 model from  [[Google Drive](https://drive.google.com/drive/folders/1MdNAkTkPkWzn6xSdU77eY2Dbd-xwLFb9?usp=share_link)] [[Baidu Disk (password: )]()].
 
 ### License
 
