@@ -164,6 +164,7 @@ CUDA_VISIBLE_DEVICES=X python src/train.py \
   --cuda     
 ```
 
+For the perceptual loss used in the paper, you can download the pre-trained VGG19 model from [Google Drive]() / [BaiduPan (key: dz6u)].
 
 ### License
 
