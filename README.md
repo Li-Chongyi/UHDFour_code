@@ -8,7 +8,7 @@ S-Lab, Nanyang Technological University; Nankai University
 
 ### Updates
 
-- **2023.01.30**:  This repo is created.
+- **2023.04.27**:  This repo is created.
 
 
 ---
@@ -18,7 +18,7 @@ S-Lab, Nanyang Technological University; Nankai University
 (The datasets are hosted on both Google Drive and BaiduPan)
 | Dataset | Link | Number | Description|
 | :----- | :--: | :----: | :---- | 
-| UHD-LL| [Google Drive]() / [BaiduPan (key: dz6u)]() | 2,150 | A total of 2,000 pairs for training and 150 pairs for testing.|
+| UHD-LL| [Google Drive](https://drive.google.com/drive/folders/1IneTwBsSiSSVXGoXQ9_hE1cO2d4Fd4DN?usp=share_link) / [BaiduPan (key: dz6u)]() | 2,150 | A total of 2,000 pairs for training and 150 pairs for testing.|
 | LOL-v1| [Google Drive]() / [BaiduPan (key: dz6u)]() | 500 | A total of 485 pairs for training and 15 pairs for testing.|
 | LOL-v2| [Google Drive]() / [BaiduPan (key: dz6u)]() | 789 | A total of 689 pairs for training and 100 pairs for testing.|
 
@@ -151,7 +151,6 @@ data
 ### Train
 See `python3 src/train.py --h` for list of optional arguments, or `train.sh` for examples.
 
-An example of UHD-LL dataset.
 ```
 CUDA_VISIBLE_DEVICES=X python src/train.py \
   --dataset-name UHD \
