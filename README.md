@@ -49,7 +49,7 @@ S-Lab, Nanyang Technological University; Nankai University
 
    ```bash
    git clone <code_link>
-   cd UHD-Net/
+   cd UHDFour_code/
    ```
 
 2. Create Conda Environment and Install Dependencies
