@@ -24,16 +24,16 @@ dataset_name = args.dataset_name
 # --- Set dataset-specific hyper-parameters  --- #
 if dataset_name == 'UHD':
     val_data_dir = './data/UHD-LL/testing_set/'
-    ckpts_dir = './ckpts/UHD_checkpoint.pt'
+#     ckpts_dir = './ckpts/UHD_checkpoint.pt'
 elif dataset_name == 'LOLv1': 
     val_data_dir = './data/LOL-v1/eval15/'
-    ckpts_dir = './ckpts/LOLv1_checkpoint.pt'
+#     ckpts_dir = './ckpts/LOLv1_checkpoint.pt'
 elif dataset_name == 'LOLv2': 
     val_data_dir = './data/LOL-v2/Test/'
-    ckpts_dir = './ckpts/LOLv2_checkpoint.pt'
+#     ckpts_dir = './ckpts/LOLv2_checkpoint.pt'
 else:
     val_data_dir = args.test_image_dir
-    ckpts_dir =  args.ckpts_dir
+ckpts_dir =  args.ckpts_dir
 
 # prepare .txt file
 if not os.path.exists(os.path.join(val_data_dir, 'data_list.txt')):
